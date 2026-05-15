@@ -26,6 +26,7 @@ body {
   border: 1px solid black;
   border-radius: 5px;
   background-color: rgb(221, 244, 255);
+  font-size: 2rem;
 }
 
 .btn-container {

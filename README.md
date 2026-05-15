@@ -40,7 +40,14 @@ Open `index.html` in any modern browser — no build step or dependencies requir
 
 ### Keyboard support
 
-Keyboard input is not yet wired up — buttons must be clicked.
+| Key(s)          | Action                  |
+| --------------- | ----------------------- |
+| `0` – `9`       | Enter digit             |
+| `.`             | Decimal point           |
+| `+` `-` `*` `/` | Operator                |
+| `Enter` or `=`  | Equals                  |
+| `Backspace`     | Delete last digit (DEL) |
+| `Escape`        | All clear (AC)          |
 
 ## Implementation Notes
 
@@ -64,6 +71,7 @@ Keyboard input is not yet wired up — buttons must be clicked.
 - [x] Result + new digit starts fresh
 - [x] Decimal (`.`) button — extra credit
 - [x] Backspace (DEL) button — extra credit
+- [x] Keyboard support — extra credit
 
 ## License
 
