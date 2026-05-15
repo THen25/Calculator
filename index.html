@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <div id="calculator">
+      <div id="window">
+        <p id="output"></p>
+      </div>
+      <div class="btn-container">
+        <button data-action="on" class="red">ON</button>
+        <button data-action="clear" class="red">AC</button>
+        <button data-action="del" class="red">DEL</button>
+        <button data-operator="/" class="red">/</button>
+        <button data-digit="7">7</button>
+        <button data-digit="8">8</button>
+        <button data-digit="9">9</button>
+        <button data-operator="*" class="red">*</button>
+        <button data-digit="4">4</button>
+        <button data-digit="5">5</button>
+        <button data-digit="6">6</button>
+        <button data-operator="-" class="red">-</button>
+        <button data-digit="1">1</button>
+        <button data-digit="2">2</button>
+        <button data-digit="3">3</button>
+        <button data-operator="+" class="red">+</button>
+        <button data-digit="0">0</button>
+        <button data-action="decimal">.</button>
+        <button data-action="equals" id="equals-btn" class="red span-two">
+          =
+        </button>
+      </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
